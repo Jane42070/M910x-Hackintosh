@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>German</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.6 Copyright © 2020 chinamobilemag.de. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>de.chinamobilemag.RadeonBoost</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>RadeonBoost</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>PolarisBoost</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x67EF1002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>ATY,EFIVersionB</key>
+				<string>RadeonBoost</string>
+				<key>CFG,CFG_NVV</key>
+				<integer>2</integer>
+				<key>CFG,CFG_PTPL2_TBL</key>
+				<data>
+				ggAAAHwAAAB2AAAAcAAAAGoAAABkAAAAXgAAAFgAAABS
+				AAAATAAAAEYAAABAAAAAOgAAADQAAAAuAAAAKAAAAA==
+				</data>
+				<key>CFG,CFG_USE_CP2</key>
+				<true/>
+				<key>PP,PP_EnableLoadFalconSmcFirmware</key>
+				<integer>1</integer>
+				<key>PP,PP_Falcon_QuickTransition_Enable</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.bsd</key>
+		<string>15.3</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>15.3</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>15.3</string>
+		<key>com.apple.kpi.mach</key>
+		<string>15.3</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>15.3</string>
+	</dict>
+</dict>
+</plist>
