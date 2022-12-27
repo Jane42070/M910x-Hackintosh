@@ -4,10 +4,12 @@
 - 魔改BIOS 添加pcie新patch, sync core, 支持八九代CPU, 没有禁用ME
 
 ## OpenCore
-- 版本0.8.6
+- 版本0.8.7
 - 除了睡眠, 其他完美
 - 支持RX460独显
-- ![基础信息](Pics/BaseInfo.png)
-- ![Geekbench](Pics/Geekbench.png)
-- ![OpenCL](Pics/OpenCL.png)
-- ![Metal](Pics/Metal.png)
+- 支持4K60HZ
+## 截图
+![基础信息](Pics/BaseInfo.png)
+![Geekbench](Pics/Geekbench.png)
+![OpenCL](Pics/OpenCL.png)
+![Metal](Pics/Metal.png)
